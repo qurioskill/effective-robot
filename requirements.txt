@@ -1,0 +1,16 @@
+# Core LLM + agent framework
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+
+# Multi-agent orchestration (used in 05_multi_agent)
+langgraph>=0.2.0
+
+# Weather/geocoding HTTP calls (Open-Meteo, no API key required)
+requests>=2.31.0
+
+# Environment variable loading for OPENAI_API_KEY
+python-dotenv>=1.0.0
+
+# Data validation / tool argument schemas
+pydantic>=2.0.0
